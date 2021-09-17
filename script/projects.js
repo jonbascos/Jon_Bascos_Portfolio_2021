@@ -27,4 +27,14 @@ const projects = [
         description: 'One of the challenges I had with this project was the input field not being cleared after entering a new item. With persistence, I was able to solve the issue which was being caused by one little word in the code.'
 
     },
+    {
+        id: 4,
+        title: 'Crypto Profit Calculator',
+        tech: 'HTML, CSS, Javascript',
+        githubURL: 'https://github.com/jonbascos/Crypto-Profit-Calculator',
+        liveURL: 'https://jonbascos.github.io/Crypto-Profit-Calculator/',
+        photoURL: 'https://medictodev-portfolio.s3.us-west-2.amazonaws.com/cryptoProfitCalculatorPreview.png',
+        description: 'Basic calculator that displays your cryptos profit (or losses) based on how many tokens/coins you hold, the average cost per coin, and the current price of the token/coin.'
+
+    },
 ]
