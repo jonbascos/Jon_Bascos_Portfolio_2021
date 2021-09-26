@@ -1,5 +1,6 @@
 const navUL = document.querySelector('.nav-ul')
 const hamburger = document.querySelector('#hamburger')
+const myRoles = document.querySelector('#my-roles')
 const projectUL = document.querySelector('.projectUL')
 
 
@@ -22,6 +23,8 @@ hamburger.addEventListener('click', () => {
     }
 
 }) 
+
+// Script to fill in the projects
 
 projects.map(project => {
     const li = document.createElement('li')

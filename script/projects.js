@@ -6,7 +6,7 @@ const projects = [
         githubURL: 'https://github.com/jonbascos/react-weather-app',
         liveURL: 'https://jonbascos.github.io/react-weather-app/',
         photoURL: 'https://medictodev-portfolio.s3-us-west-2.amazonaws.com/react-weather-app.jpg',
-        description: 'A weather app created using React and utilized the Open Weather API. You are able to enter a city and a country to display the current temperature and minimum/maximum temperature in fahrenheit as well as sky conditions.'
+        description: 'A weather app created using React and utilizing the Open Weather API. You are able to enter a city and a country to display the current temperature and minimum/maximum temperature in fahrenheit as well as sky conditions.'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const projects = [
         githubURL: 'https://github.com/jonbascos/meme-generator',
         liveURL: 'https://jonbascos.github.io/meme-generator/',
         photoURL: 'https://medictodev-portfolio.s3-us-west-2.amazonaws.com/meme-generator.png',
-        description: 'A meme-generator that takes in 2 inputs for the text of the meme. This app also allows you to choose the color of the text. One of the challenging parts of this project was getting the API containing the images integrating with the app.'
+        description: 'A meme-generator that takes in 2 inputs for the text of the meme. This app also allows you to choose the color of the text. One of the challenging parts of this project was getting the API containing the images to intigrate with the app.'
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const projects = [
         githubURL: 'https://github.com/jonbascos/Crypto-Profit-Calculator',
         liveURL: 'https://jonbascos.github.io/Crypto-Profit-Calculator/',
         photoURL: 'https://medictodev-portfolio.s3.us-west-2.amazonaws.com/cryptoProfitCalculatorPreview.png',
-        description: 'Basic calculator that displays your cryptos profit (or losses) based on how many tokens/coins you hold, the average cost per coin, and the current price of the token/coin.'
+        description: 'Basic calculator that displays your crypto\'s profit (or losses) based on how many tokens/coins you hold, the average cost per coin, and the current price of the token/coin.'
 
     },
 ]

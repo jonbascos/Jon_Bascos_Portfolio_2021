@@ -38,9 +38,23 @@ nav {
     justify-content: space-between;
 }
 
+#firstName {
+    background-color: rgb(25, 148, 148);
+    padding: 0 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+#lastName {
+    background-color: rgb(100, 97, 97);
+    padding: 0 20px;
+    margin-left: -10px;
+    border-radius: 0 10px 10px 0;
+}
+
 .logo {
     margin: 10px 0 0 5px;
     font-size: 1.5em;
+    color: white;
 }
 
 .fa-bars, .fa-times {
@@ -83,6 +97,7 @@ nav {
     padding: 30px;
     max-width: 90%;
     height: 100vh;
+    text-align: center;
 }
 
 .lets-chat-button {
@@ -168,6 +183,7 @@ nav {
 
 .project-header {
     text-align: center;
+    margin: 50px 0 20px 0;
 }
 
 .projectUL {
@@ -216,11 +232,17 @@ nav {
 /* Media Queries */
 
 @media screen and (min-width: 767px) {
+
+    nav {
+        justify-content: space-evenly;
+    }
+
     .nav-ul {
         width: 70%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin-top: 15px;
     }
 
     .hamburger {
